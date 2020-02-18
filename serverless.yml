@@ -25,7 +25,7 @@ provider:
 
 functions:
   hello:
-    handler: handler.hello
+    handler: functions/dummy.handler
     events:
       - http:
           path: hello
